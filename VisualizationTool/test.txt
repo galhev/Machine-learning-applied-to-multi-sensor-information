@@ -1,0 +1,1 @@
+SELECT * FROM dbo.Signals INNER JOIN dbo.Parameters  on dbo.Signals.ParameterID = dbo.Parameters.ParameterID WHERE PatientID=20875 AND Time='2010-08-26 17:19'
